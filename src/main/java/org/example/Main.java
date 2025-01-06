@@ -17,6 +17,7 @@ public class Main {
 
     public static boolean isCatPlaying(boolean isSummer, int temp) {
      int upperLimit = isSummer ? 45 : 35;
+
              return temp >= 25 && temp <= upperLimit;
     }
 
